@@ -1,0 +1,27 @@
+Package: course.opensci
+Type: Package
+Title: Open Science and Reproducibility
+Version: 0.0.3
+Authors@R: c(
+    person(given   = "Francois",
+           family  = "Guilhaumon",
+           role    = c("aut", "cre"),
+           email   = "francois.guilhaumon@ird.fr",
+           comment = c(ORCID = "0000-0003-4707-8932")))
+Description: Online presentation 'Open Science and Reproducibility'. This course
+    is part of the workshop 'Data Toolbox for Reproducible Research in Ecology' 
+    co-organized by the FRB-CESAB (<https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/>)
+    and the GdR EcoStat (<https://sites.google.com/site/gdrecostat/>).
+URL: https://github.com/rdatatoolbox/course-opensci, https://rdatatoolbox/github.io/course-opensci
+BugReports: https://github.com/rdatatoolbox/course-opensci/issues
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+SystemRequirements: pandoc, Rtools (for Windows users)
+Imports:
+    devtools,
+    knitr,
+    rmarkdown,
+    revealjs
