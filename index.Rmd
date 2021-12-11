@@ -1,7 +1,7 @@
 ---
-title: "Open Science <br/> (recherche reproductible) <br/> <br/>"
-author: "François Guilhaumon <br/> <br/> IRD, MARBEC, la Réunion<br/>"
-date: "29/11/2021, intro data toolbox CESAB<br/><br/><br/><span class='caption'>francois.guilhaumon@ird.fr</span>"
+title: "Open Science <br/> (Recherche reproductible) <br/> <br/>"
+author: "François Guilhaumon <br/> <br/> IRD Marbec - La Réunion<br/>"
+date: "Novembre 2021<br/><br/><br/><span class='caption'>francois.guilhaumon@ird.fr</span>"
 output:
   revealjs::revealjs_presentation:
     theme: night
@@ -17,7 +17,7 @@ output:
 ![](img/Galileo_Galilei_by_Peter_Paul_Rubens.jpg){width=40%}
 
 Galileo Galilei, par Peter Paul Rubens (circa 1630)<br/>
-<span class="small">wikimedia commons</span>
+<span class="small">Crédits : Wikimedia Commons</span>
 
 
 ## Un exemple 
@@ -25,14 +25,14 @@ Galileo Galilei, par Peter Paul Rubens (circa 1630)<br/>
 ![](img/Portrait_of_Jupiter_from_Cassini.jpg){width=40%}
 
 Mosaïque de Jupiter en vraies couleurs réalisée à partir de photographies prises par la sonde Cassini le 29 décembre 2000 à 5 h 30 UTC.<br/>
-<span class="small">wikimedia commons</span>
+<span class="small">Crédits : Wikimedia Commons</span>
 
 ## Un exemple 
 
 ![](img/Galilean_satellites.jpg){width=100%}
 
 Les quatre satellites galiléens : Io, Europe, Ganymède et Callisto.<br/>
-<span class="small">wikimedia commons</span>
+<span class="small">Crédits : Wikimedia Commons</span>
 
 ## Un exemple
 
@@ -40,7 +40,7 @@ Les quatre satellites galiléens : Io, Europe, Ganymède et Callisto.<br/>
 
 <span class="green">Figure 1.</span> Two pages (scan) from Galilei's Sidereus Nuncius (“The Starry Messenger” or “The Herald of the Stars”), Venice, 1610.
 
-<span class="small">Goodman et al. (2014) PLoS Comput Biol 10(4): e1003542. doi:10.1371/journal.pcbi.1003542</span>
+<span class="small">Crédits : Goodman _et al._ (2014) PLoS Comput Biol 10(4): e1003542. doi:10.1371/journal.pcbi.1003542</span>
 
 ## Un exemple
 
@@ -53,7 +53,7 @@ Les quatre satellites galiléens : Io, Europe, Ganymède et Callisto.<br/>
 
 <br/><br/>
 
-Les notes de Galilée intègrent:
+Les notes de Galilée intègrent :
 <br/><br/>
 
 > - Données (dessins)
@@ -67,7 +67,7 @@ Les notes de Galilée intègrent:
 
 ## Recherche reproductible
 <br/><br/><br/>
-données + méta-données + matériel & méthodes
+Données + Méta-données + Matériel & Méthodes
 
 # Pourquoi ?
 
@@ -83,7 +83,7 @@ données + méta-données + matériel & méthodes
 
 ![](img/goodman_2014_fig1.png){width=40%}
 
-depuis Galilée le concept a un peu évolué ...
+Depuis Galilée le concept a un peu évolué...
 
 ## Recherche reproductible
 
@@ -97,7 +97,7 @@ Un article publié n'est que le sommet de l'iceberg que représente le processus
 "An article about computational results is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result."
 </blockquote>
 
-<span class="reference">Claerbout and Karrenbach 1992.  http://sepwww.stanford.edu/doku.php?id=sep:research:reproducible:seg92</span>
+<span class="reference">Claerbout & Karrenbach 1992. http://sepwww.stanford.edu/doku.php?id=sep:research:reproducible:seg92</span>
 
 "[...] reproducible computational research is to expose more of the research workflow to our audience."
 
@@ -125,7 +125,7 @@ discovery and understanding.
 > - <span class="green">Manuscripts:</span> writing manuscripts in a way that leaves an audit trail and
 minimizes manual merging of conflict.
 
-<span class="reference">Wilson et al. 2016. Plos Comp Biol. https://arxiv.org/pdf/1609.00037.pdf</span>
+<span class="reference">Wilson _et al._ 2016. Plos Comp Biol. https://arxiv.org/pdf/1609.00037.pdf</span>
 
 ## <span class="green">Data Management</span>
 
@@ -192,11 +192,11 @@ L'environnement logiciel.
 
 <br/>
 
-> - Les packages (version) : packrat
+> - Les packages (version) : `renv`
 
 <br/>
 
-> - quid des bibliothèques système, de la version de R, de la version de l'OS ?
+> - Quid des bibliothèques système, de la version de R, de la version de l'OS ?
 
 <br/>
 
@@ -204,13 +204,13 @@ L'environnement logiciel.
 
 ## <span class="green">Software</span>
 
-Le "workflow" (echaînement des scripts, des logiciels).
+Le "workflow" (enchainement des scripts, des logiciels).
 
-D'une manière générale automatiser au maximum
+D'une manière générale, automatiser au maximum
 
 ![](https://imgs.xkcd.com/comics/automation.png)
 
-> - il existe des outils pour ça (pseudo makefile en R, makefile shell, pipeline toolkits [Remake, Drake])
+> - Par ex. makefile en R / shell, pipeline toolkits (`targets`)
 
 ## <span class="green">Tracking Changes</span>
 
@@ -221,7 +221,7 @@ over time.
 
 ## <span class="green">Tracking Changes</span>
 
-Utiliser un logiciel de gestion de versions (Git).
+Utiliser un logiciel de gestion de versions (`git`).
 
 ![](https://imgs.xkcd.com/comics/git.png)
 
@@ -238,11 +238,11 @@ and contribute to a project.
 
 <br/>
 
-> - documentaiton de l'archive de recherche (Readme, License, code de contribution)
+> - documentaiton de l'archive de recherche (README, License, Code de contribution)
 
 <br/>
 
-> - Plateforme de collaboration en ligne (intègre Git !) : github, gitlab
+> - Plateforme de collaboration en ligne (qui intègre `git` !) : GitHub, GitLab
 
 ## <span class="green">Project Organization</span>
 
@@ -261,11 +261,11 @@ discovery and understanding.
 
 <br/>
 
-> - Research compendium : organisation du répertoire de travail
+> - <span class="green">Research compendium :</span> organisation du répertoire de travail
 
 <br/>
 
-> - Pipeline toolkit (Drake) : gère les dépendances entre données, scripts et résultats
+> - <span class="green">Pipeline toolkit (`targets`) :</span> gère les dépendances entre données, scripts et résultats
 
 ## <span class="green">Manuscripts</span>
 
@@ -288,7 +288,7 @@ Utiliser la programmation lettrée (literate programming)
 
 ## <span class="green">Manuscripts</span>
 
-Rmarkdown (https://rmarkdown.rstudio.com/)
+`Rmarkdown` (https://rmarkdown.rstudio.com/)
 
 ![](img/rmarkdown.png)
 
@@ -297,15 +297,15 @@ Rmarkdown (https://rmarkdown.rstudio.com/)
 <br/>
 <br/>
 
-Comment ça marche Rmarkdown ?
+Comment ça marche `Rmarkdown` ?
 
 ![](img/rmarkdownflow.png)
 
-En markdown le texte est formaté en utilisant des balises très simples comme les _ ou les *
+En `markdown` le texte est formaté avec des balises très simples (` * _ # `)
 
 ## <span class="green">Manuscripts</span>
 
-Formats d'export de Rmarkdown (pandoc)
+Formats d'export de `Rmarkdown` (**Pandoc**)
 
 ![](img/rmarkdown_formats.png){width=50%}
 
