@@ -1,0 +1,438 @@
+---
+format:
+  revealjs:
+    theme: night
+    transition: slide
+    background-transition: fade
+    scrollable: true
+    css: assets/custom.css
+slide-number: true
+self-contained: true
+---
+
+## RECHERCHE REPRODUCTIBLE {background-color="#636363"}
+
+en écologie numérique
+
+<br/> <br/> Montpellier le 28-11-2022
+
+<br/> <br/> <br/>
+
+![](assets/banner-rdatatoolbox_150dpi.png){fig-align="center"}
+
+# Recherche reproductible ? {background-color="#4b4f29"}
+
+## Un exemple {background-color="black"}
+
+::: columns
+::: {.column width="60%"}
+![](assets/Galileo_Galilei_by_Peter_Paul_Rubens.jpg){height="550"}
+:::
+
+::: {.column width="40%"}
+<br/> <br/> <br/> <br/> Galileo Galilei, par Peter Paul Rubens (circa 1630)
+:::
+:::
+
+##  {background-color="black" transition="fade-out"}
+
+![](assets/Portrait_of_Jupiter_from_Cassini.jpg){height="610"}
+
+##  {background-color="black" transition="fade-in slide-out"}
+
+::: columns
+::: {.column width="60%"}
+![](assets/Portrait_of_Jupiter_from_Cassini.jpg){height="610"}
+:::
+
+::: {.column width="40%"}
+<br/> <br/> Mosaïque de Jupiter en vraies couleurs réalisée à partir de photographies prises par la sonde Cassini le 29 décembre 2000 à 5 h 30 UTC.<br/>
+:::
+:::
+
+##  {background-color="#f2f2f2"}
+
+::: columns
+::: {.column width="60%"}
+<br/> <br/> <br/> ![](assets/galileo_scope.webp)
+:::
+
+::: {.column width="40%"}
+<br/> <br/> <br/> <br/> <br/> Lunette de Galillée (1610)
+:::
+:::
+
+::: notes
+Galileo's telescope anchors the exhibit "Galileo, the Medici and the Age of Astronomy," which is at the Franklin Institute in Philadelphia until September 7, 2009. Though Galileo didn't invent the telescope (Dutch opticians did), he improved upon it. The first telescope used a combination of two lenses within a tube, and it could magnify items by three times, but showed them upside down. But when Galileo constructed his own telescope in 1609, he added a third lens. His telescope magnified items by eight times and showed them right side up. Over the following years, Galileo built several telescopes, including one that would magnify items by a factor of 30
+:::
+
+##  {background-color="black"}
+
+<br/> <br/> <br/> <br/> ![](assets/Galilean_satellites.jpg)
+
+##  {background-color="black"}
+
+::: columns
+::: {.column width="60%"}
+<br/> <br/> <br/> <br/> <br/> ![](assets/Galilean_satellites.jpg)
+:::
+
+::: {.column width="40%"}
+<br/> <br/> <br/> Les quatre satellites galilléens :
+
+::: incremental
+-   Io,
+-   Europe,
+-   Ganymède,
+-   Callisto
+:::
+:::
+:::
+
+##  {background-color="black"}
+
+::: columns
+::: {.column width="60%"}
+<br/> <br/> <br/> ![](assets/goodman_2014_fig1.png)
+:::
+
+::: {.column width="40%"}
+<br/> <br/> <br/> Deux pages (scan) du 'Sidereus Nuncius' de Galillée ("The Starry Messenger" or "The Herald of the Stars"), Venice, 1610.
+
+[Goodman et al. (2014) <br/> PLoS Comput Biol]{.small}
+:::
+:::
+
+## 
+
+<br/> <br/> <br/> <br/> <br/> Galillée relate une expérience scientifique au bout de laquelle on abouti à la conclusion que Io, Europe, Ganymède et Callisto sont en orbite autour de Jupiter.
+
+##  {background-color="black"}
+
+::: columns
+::: {.column width="60%"}
+<br/> <br/> <br/> ![](assets/goodman_2014_fig1.png)
+:::
+
+::: {.column width="40%"}
+Les notes de Galillée intègrent:
+
+-   Données (dessins)
+
+-   Méta-données (date, météo, carac. lunette)
+
+-   Texte (description des méthodes, analyses et conclusions)
+:::
+:::
+
+##  Recherche reproductible {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+<br/> <br/>
+
+::: r-hstack
+::: {data-id="box1" auto-animate-delay="0" style="background: #1db1c2; width: 300px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center;" .fragment}
+données
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #e8c32e; width: 300px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center;" .fragment}
+méta-données
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #a8b035; width: 300px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center;" .fragment}
+mat. & mét.
+:::
+:::
+
+##  Recherche reproductible {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+<br/> <br/>
+
+::: r-stack
+::: {data-id="box1" style="background: #1db1c2; width: 700px; height: 400px; border-radius: 50px;"}
+:::
+
+::: {data-id="box2" style="background: #e8c32e; width: 600px; height: 300px; border-radius: 50px;"}
+:::
+
+::: {data-id="box3" style="background: #a8b035; width: 500px; height: 200px; border-radius: 50px; display: flex; justify-content: center; align-items: center;"}
+Recherche Reproductible
+:::
+:::
+
+# Pourquoi ? {background-color="#4b4f29"}
+
+##  {data-background-video="assets/Bubbles_Animation.mp4" data-background-video-loop="true" data-background-size="cover" auto-animate="true"}
+
+![](assets/poker_face.png){.absolute top="150" left="0" width="500" height="500"}
+
+##  {data-background-video="assets/Bubbles_Animation.mp4" data-background-video-loop="true" data-background-size="cover" auto-animate="true"}
+
+![](assets/poker_face.png){.absolute top="150" left="500" width="10" height="10"}
+
+##  {data-background-image="assets/natureCapture.png"}
+
+##  {data-background-image="assets/leMonde_science.png"}
+
+## Avantages
+
+::: incremental
+-   Oblige à vérifier le travail (partage données + code)
+-   Votre [vous]{.blue} futur vous remerciera (vous répéterez vos analyses, écrirez des articles)
+-   Vos collaborateurs aussi
+-   En étant reproductible, vous renforcez votre crédibilité et votre réputation
+-   La reproductibilité favorise la confiance dans la démarche scientifique
+-   Un [progrès scientifique plus rapide]{.blue}
+:::
+
+## Un nouveau paradigme
+
+<br/>
+
+::: incremental
+-   les revues le demandent (data accessibility, open research)
+
+-   ~~si je garde mes données et mon code, j'ai un avantage compétitif~~
+
+-   vous êtes jeunes (au moins dans votre tête), c'est à vous de changer le monde !
+
+-   pour ça il faut apprendre à coder un minimum ...
+:::
+
+#
+
+![](assets/r_afraid.png){fig-align="center"}
+
+# Comment ? {background-color="#4b4f29"}
+
+## Recherche reproductible
+
+![](assets/goodman_2014_fig1.png){height="400" fig-align="center"}
+
+[depuis Galillée le concept a un peu évolué ...]{.center}
+
+## L'article 
+
+::: {.r-stack}
+![](assets/nature_cover.webp){.fragment width="450"}
+
+![](assets/ele_cover.jpg){.fragment width="400"} ![](assets/science.webp){.fragment width="400"}
+
+![](assets/pnas.webp){.fragment width="350"}
+
+:::
+
+
+##  {data-background-image="assets/iceberg.png"}
+
+<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+
+Un article publié n'est que le sommet de l'iceberg que représente le processus de recherche ...
+
+## 
+
+<br/> <br/>
+
+> "An article about computational results is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result."
+
+[Claerbout and Karrenbach 1992.]{.small}
+
+## 
+
+<br/> <br/>
+
+<blockquote>"\[...\] reproducible computational research is to expose more of the research workflow to our audience."</blockquote>
+
+[https://ropensci.github.io/reproducibility-guide/sections/introduction/]{.small}
+
+## Les concepts
+
+::: fragment
+::: incremental
+-   [Data Management]{.green}
+
+-   [Software]{.green}
+
+-   [Tracking Changes]{.green}
+
+-   [Collaboration]{.green}
+
+-   [Project Organization]{.green}
+
+-   [Manuscripts]{.green}
+:::
+:::
+
+::: fragment
+[Wilson et al. 2016. Plos Comp Biol. https://arxiv.org/pdf/1609.00037.pdf]{.small}
+:::
+
+## [Data Management]{.green}
+
+<br/>
+
+Saving both raw and intermediate forms; documenting all steps; creating tidy data amenable to analysis.
+
+## [Data Management]{.green}
+
+> -   Sauvegarder les données initiales en l'état.
+
+> -   Scripter l'acquisition des données au maximum (API, 'download.file').
+
+> -   Toute transformation sera scriptée, cela devient un résultat.
+
+> -   Générer les données que vous voudriez recevoir ([tidy]{.green})
+
+## Tidy data
+
+![](assets/tidy_data.jpg){fig-align="center"}
+
+## [Software]{.green}
+
+<br/>
+
+Writing, organizing, and sharing scripts and programs used in an analysis.
+
+## [Software]{.green}
+
+Le code, les scripts
+
+> -   Respecter au maximum les conventions de code de votre communauté, [https://style.tidyverse.org/](https://style.tidyverse.org/)
+
+> -   Peut importe la convention adoptée, rester constant !
+
+> -   Chemins relatifs ! Toujours !
+
+> -   Pas d'espaces, d'accents ni de MAJUSCULES !
+
+> -   Commenter/documenter ([les fonctions]{.green}, les scripts)
+
+## [Software]{.green}
+
+L'environnement logiciel
+
+> -   Les packages (version), la version de R (e.g. stringAsFactors = FALSE depuis 4.0, '\|\>' depuis 4.1): utiliser le package [renv]{.blue}
+
+> -   et les bibliothèques système, la version de l'OS ?
+
+> -   Docker (Rocker pour R), permet de créer une image de l'environnement de travail (OS, bibliothèques, R, packages)
+
+## [Software]{.green}
+
+Le "workflow" (enchaînement des scripts, des logiciels).
+
+![](assets/tweet.png){fig-align="center"}
+
+## [Software]{.green}
+
+Le "workflow" (enchaînement des scripts, des logiciels).
+
+<br/>
+
+![](https://imgs.xkcd.com/comics/automation.png){width="50%" fig-align="center"}
+
+> -   il existe des outils pour ça (makefile en R, pipeline toolkits [targets]{.blue})
+
+## [Tracking Changes]{.green}
+
+<br/>
+
+Archiver l'évolution de divers composants de notre projet.
+
+:::: {.columns}
+::: {.column}
+::: {.fragment}
+![](assets/folder_1.png)
+:::
+:::
+::: {.column}
+::: {.fragment}
+![](assets/folder_2.png)
+:::
+:::
+::::
+
+## [Tracking Changes]{.green}
+
+Utiliser un logiciel de gestion de versions ([**Git**]{.blue}).
+
+![](https://imgs.xkcd.com/comics/git.png){fig-align="center"}
+
+## [Collaboration]{.green}
+
+<br/>
+
+Faciliter la compréhension des projets de recherche : permettre la [contribution]{.blue}, la [vérification]{.blue}, la [synthèse]{.blue} et la [progression]{.blue}.
+
+## [Collaboration]{.green}
+
+<br/>
+
+> -   conventions de code
+
+> -   documentaiton de l'archive de recherche (README, license, code de contribution)
+
+> -   plateforme de collaboration en ligne (intègre Git !) : github, gitlab
+
+## [Project Organization]{.green}
+
+<br/>
+
+Organizing the digital artifacts of a project to ease discovery and understanding.
+
+## [Project Organization]{.green}
+
+<br/>
+
+![](assets/nat_com.png){fig-align="center"}
+
+## [Project Organization]{.green}
+
+<br/> <br/>
+
+Research compendium : organisation du répertoire de travail
+
+##  {background-color="#636363" background-image="assets/folder_mess_cooking.png"}
+
+##  {background-color="#636363" background-image="assets/folder_tidy_cooking.png"}
+
+## [Manuscripts]{.green}
+
+<br/>
+
+Writing manuscripts in a way that leaves an audit trail and minimizes manual merging of conflict.
+
+## [Manuscripts]{.green}
+
+<br/>
+
+Utiliser la programmation lettrée (literate programming)
+
+<br/>
+
+<blockquote>Au lieu de considérer que notre tâche principale est de dire à un ordinateur ce qu'il doit faire, appliquons-nous plutôt à expliquer à des êtres humains ce que nous voulons que l'ordinateur fasse.</blockquote>
+
+[Donald Knuth, années 70]{.reference}
+
+## [Manuscripts]{.green}
+
+[Quarto]{.blue} (https://quarto.org) / Rmarkdown (...)
+
+![](assets/quarto_left-right.png){fig-align="center"}
+
+## [Manuscripts]{.green}
+
+<br/>
+
+Comment ça marche Quarto ?
+
+![](assets/qmd_md_output.png){fig-align="center"}
+
+En markdown le texte est formaté en utilisant des balises très simples comme les \_ ou les \*
+
+## [Manuscripts]{.green}
+
+Formats d'export de Quarto (pandoc)
+
+![](assets/rmarkdown_formats.png){width="50%" fig-align="center"}
+
+# CESAB Datatoolbox
