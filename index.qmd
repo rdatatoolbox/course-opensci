@@ -1,7 +1,7 @@
 ---
 format:
   revealjs:
-    theme: night
+    theme: simple
     transition: slide
     background-transition: fade
     scrollable: true
@@ -14,7 +14,7 @@ self-contained: true
 
 en écologie numérique
 
-<br/> <br/> CESAB, le 20-11-2023
+<br/> <br/> CESAB, le 02-12-2024
 
 <br/> <br/> 
 
@@ -102,7 +102,7 @@ code
 :::
 
 ::: {.fragment data-id="box3" auto-animate-delay="0.2" style="background: #a8b035; width: 300px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center;"}
-documentation (e.g. un article)
+documentation
 :::
 :::
 
@@ -174,7 +174,7 @@ Recherche Reproductible
 
 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
-Un article publié n'est que le sommet de l'iceberg que représente le processus de recherche ...
+[Un article publié n'est que le sommet de l'iceberg que représente le processus de recherche ...]{.white}
 
 ## 
 
@@ -217,12 +217,6 @@ Un article publié n'est que le sommet de l'iceberg que représente le processus
 ::: fragment
 Organiser tous les fichiers relatifs à un projet selon une structure cohérente (et standardisée ...).
 :::
-
-## [Project Organization]{.green}
-
-<br/>
-
-![](assets/nat_com.png){fig-align="center"}
 
 ##  {background-color="#636363" background-image="assets/folder_mess_cooking.png"}
 
@@ -276,13 +270,17 @@ Le code, les scripts
 
 ## [Software]{.green}
 
+![](assets/coding_cases.png){fig-align="center"}
+
+## [Software]{.green}
+
 L'environnement logiciel
 
 > -   Les packages (versions !), la version de R (e.g. stringAsFactors = FALSE depuis 4.0, '\|\>' depuis 4.1): utiliser le package [renv]{.blue}
 
 > -   et les bibliothèques système, la version de l'OS ?
 
-> -   Docker (Rocker pour R), permet de créer une image de l'environnement de travail (OS, bibliothèques système, R, packages) (... il faut être un geek)
+> -   Docker (Rocker pour R), permet de créer une image de l'environnement de travail (OS, bibliothèques système, R, packages) (c'est faisable !)
 
 ## [Software]{.green}
 
@@ -364,6 +362,17 @@ Utiliser la programmation lettrée (literate programming)
 
 ## [Manuscripts]{.green}
 
+<br/>
+
+Utiliser la programmation lettrée (literate programming)
+
+<br/>
+
+<blockquote>Au lieu de passer des nuits entières à reformater des titres, insérer et renuméroter des figures et des tableaux, on ferait mieux de se concentrer sur la pertinence de son intro ou de sa discussion.</blockquote>
+
+
+## [Manuscripts]{.green}
+
 [Quarto]{.blue} (<https://quarto.org>)
 
 ![](assets/rstudio-hello.png){fig-align="center"}
@@ -388,21 +397,26 @@ Formats d'export de Quarto (pandoc)
 
 ![](assets/rmarkdown_formats.png){width="50%" fig-align="center"}
 
-## Programme
+## Program
+
+:::{.small}
 
 +---------------+-------------------------------------------------+
-| **Monday**    | - Research compendium & Good practices          |
-|               | - Version control with `Git` & `GitHub`         |
+| **Monday**    | - Project organization & Good practices         |
+|               | - Version control w/ Git (Part I)               |
 +---------------+-------------------------------------------------+
-| **Tuesday**   | - Literate programming: `R Markdown` & `Quarto` |
-|               | - Pipeline toolkit with `targets`               |
+| **Tuesday**   | - Version control w/ Git (Part II)              |
+|               | - Collaboration & sharing w/ GitHub             |
 +---------------+-------------------------------------------------+
-| **Wednesday** | - Dealing with R package versions with `renv`   |
-|               | - Containerization with `Docker`                |
-|               | - Building an R package                         |
+| **Wednesday** | - Literate programming w/ Quarto                |
+|               | - Pipeline optimization w/ targets              |
+|               | - Developing an R package                       |
 +---------------+-------------------------------------------------+
-| **Thursday**  | - Subgroups projects                            |
+| **Thursday**  | - Freezing package versions w/ renv             |
+|               | - Containerization w/ Docker                    |
+|               | - Subgroups projects                            |
 +---------------+-------------------------------------------------+
 | **Friday**    | - Subgroups projects                            |
 +---------------+-------------------------------------------------+
 
+:::
