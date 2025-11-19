@@ -14,7 +14,7 @@ self-contained: true
 
 en écologie numérique
 
-<br/> <br/> CESAB, le 02-12-2024
+<br/> <br/> Décembre 2025
 
 <br/> <br/> 
 
@@ -64,11 +64,11 @@ francois.guilhaumon\@ird.fr / fguilhaumon.github.io
 
 <br/> <br/>
 
-[[Goodman et al. (2014) PLoS Comput Biol 10(4): e1003542. doi:10.1371/journal.pcbi.1003542](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542)]{.small}
+[Goodman et al. (2014) PLoS Comput Biol. [10.1371/journal.pcbi.1003542](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542)]{.small}
 
 ## 
 
-<br/> <br/> <br/> <br/> <br/> Galillée relate une expérience scientifique au bout de laquelle on abouti tous à la conclusion que Io, Europe, Ganymède et Callisto sont en orbite autour de Jupiter.
+<br/> <br/> <br/> <br/> <br/> Galilée relate une expérience scientifique au bout de laquelle on aboutit tous à la conclusion que Io, Europe, Ganymède et Callisto sont en orbite autour de Jupiter.
 
 ##  {background-color="black"}
 
@@ -78,7 +78,7 @@ francois.guilhaumon\@ird.fr / fguilhaumon.github.io
 :::
 
 ::: {.column width="40%"}
-Les notes de Galillée intègrent:
+Les notes de Galilée intègrent :
 
 -   Données (dessins)
 
@@ -94,15 +94,15 @@ Les notes de Galillée intègrent:
 
 ::: r-hstack
 ::: {.fragment data-id="box1" auto-animate-delay="0" style="background: #1db1c2; width: 300px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center;"}
-données
+Données
 :::
 
 ::: {.fragment data-id="box2" auto-animate-delay="0.1" style="background: #e8c32e; width: 300px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center;"}
-code
+Code
 :::
 
 ::: {.fragment data-id="box3" auto-animate-delay="0.2" style="background: #a8b035; width: 300px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center;"}
-documentation
+Documentation
 :::
 :::
 
@@ -127,11 +127,11 @@ Recherche Reproductible
 <br/>
 
 ::: incremental
--   les financeurs (ANR, Europe) et les revues le demandent (accéssibilité des données et du code, science ouverte)
+-   Les financeurs (ANR, Europe) et les journaux le demandent (accessibilité des données et du code, science ouverte)
 
--   ~~si je garde mes données et mon code, j'ai un avantage compétitif~~
+-   ~~Si je garde mes données et mon code, j'ai un avantage compétitif~~
 
--   si je partage mes données et mon code, mon travail aura plus de visibilité (et de citations)
+-   Si je partage mes données et mon code, mon travail aura plus de visibilité (et de citations)
 :::
 
 ## Avantages
@@ -145,11 +145,11 @@ Recherche Reproductible
 -   Un [progrès scientifique plus rapide]{.blue}
 :::
 
-# il faut accepter de coder un minimum ...
+# Il faut accepter de coder un minimum...
 
 <!--## il faut accepter de coder un minimum ... {data-background-image="assets/surprise_fg.jpg"}-->
 
-## il faut accepter de coder un minimum ...
+## Il faut accepter de coder un minimum...
 ![](assets/r_afraid.png){fig-align="center"}
 
 # Comment ?
@@ -158,7 +158,7 @@ Recherche Reproductible
 
 ![](assets/goodman_2014_fig1.png){height="400" fig-align="center"}
 
-[depuis Galillée le concept a un peu évolué ...]{.center}
+[Depuis Galilée, le concept a un peu évolué...]{.center}
 
 ## L'article
 
@@ -174,7 +174,7 @@ Recherche Reproductible
 
 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
-[Un article publié n'est que le sommet de l'iceberg que représente le processus de recherche ...]{.white}
+[Un article publié n'est que le sommet de l'iceberg que représente le processus de recherche...]{.white}
 
 ## 
 
@@ -182,49 +182,49 @@ Recherche Reproductible
 
 > "An article about computational results is advertising, not scholarship. The actual scholarship\* is the full software environment, code and data, that produced the result."
 
-[Claerbout and Karrenbach 1992.]{.small}
+[Claerbout & Karrenbach (1992) [10.1190/1.1822162](https://doi.org/10.1190/1.1822162)]{.small}
 
 <br/> <br/>
 
-\*érudition
+[\*_érudition_]{.small}
 
 ## Les concepts
 
-[Wilson et al. 2016. Plos Comp Biol. <https://arxiv.org/pdf/1609.00037.pdf>]{.small}
+[Wilson _et al._ (2017) Plos Comp Biol. [10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)]{.small}
 
 ::: incremental
--   [Project Organization : Organisation des fichiers]{.green}
+1.   [Project organization]{.green} (Organisation des fichiers)
 
--   [Data management : Gestion des données]{.green}
+2.   [Data management]{.green} (Gestion des données)
 
--   [Software : Structure du code & Cohérence du flux d'analyses]{.green}
+3.   [Software]{.green} (Structure du code & Cohérence du flux d'analyses)
 
--   [Tracking Changes : Gestion des versions de fichiers]{.green}
+4.   [Tracking changes]{.green} (Gestion des versions de fichiers)
 
--   [Collaboration]{.green}
+5.   [Collaboration]{.green}
 
--   [Manuscripts]{.green}
+6.   [Manuscript]{.green}
 :::
 
-## [Project Organization]{.green}
+## [Project organization]{.green}
 
 <br/>
 
-"Organizing the digital artifacts of a project to ease discovery and understanding."
+> _"Organizing the digital artifacts of a project to ease discovery and understanding"_
 
 <br/> <br/> <br/>
 
 ::: fragment
-Organiser tous les fichiers relatifs à un projet selon une structure cohérente (et standardisée ...).
+Organiser tous les fichiers relatifs à un projet selon une structure cohérente (et standardisée)
 :::
 
 ##  {background-color="#636363" background-image="assets/folder_mess_cooking.png"}
 
-## [Project Organization]{.green}
+## [Project organization]{.green}
 
 <br/> <br/>
 
-Research compendium
+**Research compendium**
 
 ##  {background-color="#636363" background-image="assets/folder_tidy_cooking.png"}
 
@@ -232,17 +232,17 @@ Research compendium
 
 <br/>
 
-"Saving both raw and intermediate forms; documenting all steps; creating tidy data amenable to analysis."
+> _"Saving both raw and intermediate forms; Documenting all steps; Creating tidy data amenable to analysis"_
 
 ## [Data management]{.green}
 
-> -   Sauvegarder les données initiales en l'état.
+-   Sauvegarder les données initiales en l'état
 
-> -   Coder l'acquisition des données au maximum (API, fonction 'download.file' de R).
+-   Coder l'acquisition des données au maximum (API, fonction `download.file()` de R)
 
-> -   Toute transformation des données sera codée, cela devient un résultat.
+-   Toute transformation des données sera codée, cela devient un résultat
 
-> -   Générer des données "bien rangées", telles que vous voudriez les recevoir ([tidy]{.green})
+-   Générer des données "bien rangées", telles que vous voudriez les recevoir ([tidy]{.green})
 
 ## Tidy data
 
@@ -252,21 +252,21 @@ Research compendium
 
 <br/>
 
-Writing, organizing, and sharing scripts and programs used in an analysis.
+> _"Writing, organizing, and sharing scripts and programs used in an analysis"_
 
 ## [Software]{.green}
 
 Le code, les scripts
 
-> -   Respecter au maximum les conventions de code de votre communauté, <https://style.tidyverse.org/>
+-   Respecter au maximum les conventions de code de votre communauté, <https://style.tidyverse.org/>
 
-> -   Peut importe la convention adoptée, rester constant !
+-   Peu importe la convention adoptée, rester constant !
 
-> -   Chemins relatifs ! Toujours !
+-   Chemins relatifs ! Toujours !
 
-> -   Pas d'espaces, d'accents ni de MAJUSCULES !
+-   Pas d'espaces, d'accents ni de MAJUSCULES !
 
-> -   Commenter/documenter ([les fonctions]{.green}, les scripts)
+-   Commenter/documenter ([les fonctions]{.green}, les scripts)
 
 ## [Software]{.green}
 
@@ -276,33 +276,35 @@ Le code, les scripts
 
 L'environnement logiciel
 
-> -   Les packages (versions !), la version de R (e.g. stringAsFactors = FALSE depuis 4.0, '\|\>' depuis 4.1): utiliser le package [renv]{.blue}
+-   Les packages (versions !), la version de R (e.g. `stringAsFactors = FALSE` depuis 4.0, `|>` depuis 4.1) : utiliser le package `renv`
 
-> -   et les bibliothèques système, la version de l'OS ?
+-   Et les bibliothèques système, la version de l'OS ?
 
-> -   Docker (Rocker pour R), permet de créer une image de l'environnement de travail (OS, bibliothèques système, R, packages) (c'est faisable !)
+-   Docker (Rocker pour R), permet de créer une image de l'environnement de travail (OS, bibliothèques système, R, packages) (c'est faisable !)
 
 ## [Software]{.green}
 
-Le "workflow" (enchaînement des scripts, des logiciels).
+Le "workflow" (enchaînement des scripts, des logiciels)
 
 ![](assets/tweet.png){fig-align="center"}
 
 ## [Software]{.green}
 
-Le "workflow" (enchaînement des scripts, des logiciels).
+Le "workflow" (enchaînement des scripts, des logiciels)
 
 <br/>
 
 ![](https://imgs.xkcd.com/comics/automation.png){width="50%" fig-align="center"}
 
-> -   il existe des outils pour ça (script R, package [targets]{.blue})
+<br/>
+
+[Il existe des outils pour ça (script R, package `targets`)]{.small}
 
 ## [Tracking Changes]{.green}
 
 <br/>
 
-Archiver l'évolution de divers composants de notre projet.
+Archiver l'évolution de divers composants du projet
 
 ::: columns
 ::: column
@@ -320,9 +322,9 @@ Archiver l'évolution de divers composants de notre projet.
 
 ## [Tracking Changes]{.green}
 
-Utiliser un logiciel de gestion de versions ([**Git**]{.blue}).
+Utiliser un logiciel de gestion de versions (`Git`).
 
-![](assets/git.png){fig-align="center"}
+![](assets/git.png){width='50%' fig-align="center"}
 
 ##  {data-background-image="assets/capure_rstudio-git.png"}
 
@@ -336,27 +338,27 @@ Faciliter la compréhension des projets de recherche : permettre la [contributio
 
 <br/>
 
-> -   conventions de code
+-   Conventions de code
 
-> -   documentation de l'archive de recherche (README, license, code de contribution)
+-   Documentation de l'archive de recherche (README, license, code de contribution)
 
-> -   plateforme de collaboration en ligne (intègre Git !) : github, gitlab
-
-## [Manuscripts]{.green}
-
-<br/>
-
-Writing manuscripts in a way that leaves an audit trail and minimizes manual merging of conflict.
+-   Plateforme de collaboration en ligne (intègre `Git` !) : GitHub, GitLab, Codeberg
 
 ## [Manuscripts]{.green}
 
 <br/>
 
-Utiliser la programmation lettrée (literate programming)
+> Writing manuscripts in a way that leaves an audit trail and minimizes manual merging of conflict
+
+## [Manuscripts]{.green}
 
 <br/>
 
-<blockquote>Au lieu de considérer que notre tâche principale est de dire à un ordinateur ce qu'il doit faire, appliquons-nous plutôt à expliquer à des êtres humains ce que nous voulons que l'ordinateur fasse.</blockquote>
+Utiliser la programmation lettrée (_literate programming_)
+
+<br/>
+
+> "Au lieu de considérer que notre tâche principale est de dire à un ordinateur ce qu'il doit faire, appliquons-nous plutôt à expliquer à des êtres humains ce que nous voulons que l'ordinateur fasse"
 
 [Donald Knuth, années 70]{.reference}
 
@@ -368,7 +370,7 @@ Utiliser la programmation lettrée (literate programming)
 
 <br/>
 
-<blockquote>Au lieu de passer des nuits entières à reformater des titres, insérer et renuméroter des figures et des tableaux, on ferait mieux de se concentrer sur la pertinence de son intro ou de sa discussion.</blockquote>
+> "Au lieu de passer des nuits entières à reformater des titres, insérer et renuméroter des figures et des tableaux, on ferait mieux de se concentrer sur la pertinence de son intro ou de sa discussion"
 
 
 ## [Manuscripts]{.green}
@@ -379,15 +381,16 @@ Utiliser la programmation lettrée (literate programming)
 
 ## [Manuscripts]{.green}
 
-En markdown le texte est formaté en utilisant des balises très simples comme les \_ ou les \*
+En `markdown`, le texte est formaté en utilisant des balises très simples comme les `_` ou les `*`
 
 ![](assets/rstudio-source-visual.png){fig-align="center"}
 
 ## [Manuscripts]{.green}
 
-<br/>
 
 Comment ça marche Quarto ?
+
+<br/>
 
 ![](assets/qmd_md_output.png){fig-align="center"}
 
