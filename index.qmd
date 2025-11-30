@@ -20,23 +20,6 @@ en écologie numérique
 
 ![](assets/banner-rdatatoolbox_150dpi.png)
 
-## Qui je suis ? {data-background-image="assets/surprise_paysage.jpg" data-background-opacity=0.4}
-
-::: incremental
--   chercheur (IRD)
-
--   écologue (marin)
-
--   récifs coralliens
-
--   écologie fonctionnelle
-
--   écologie numérique
-:::
-
-<br/> <br/> 
-
-francois.guilhaumon\@ird.fr / fguilhaumon.github.io
 
 # Recherche reproductible ? {background-color="#292929"}
 
@@ -56,10 +39,6 @@ francois.guilhaumon\@ird.fr / fguilhaumon.github.io
 
 ##  {background-color="black"}
 
-<br/> <br/> <br/> <br/> ![](assets/Galilean_satellites.jpg)
-
-##  {background-color="black"}
-
 ![](assets/goodman_2014_fig1.png){fig-align="center"}
 
 <br/> <br/>
@@ -68,7 +47,10 @@ francois.guilhaumon\@ird.fr / fguilhaumon.github.io
 
 ## 
 
-<br/> <br/> <br/> <br/> <br/> Galilée relate une expérience scientifique au bout de laquelle on aboutit tous à la conclusion que Io, Europe, Ganymède et Callisto sont en orbite autour de Jupiter.
+<br/> <br/>Galilée relate une expérience scientifique au bout de laquelle on aboutit tous à la conclusion que Io, Europe, Ganymède et Callisto sont en orbite autour de Jupiter.
+<br/> <br/>
+![](assets/Galilean_satellites.jpg)
+
 
 ##  {background-color="black"}
 
@@ -146,8 +128,6 @@ Recherche Reproductible
 :::
 
 # Il faut accepter de coder un minimum...
-
-<!--## il faut accepter de coder un minimum ... {data-background-image="assets/surprise_fg.jpg"}-->
 
 ## Il faut accepter de coder un minimum...
 ![](assets/r_afraid.png){fig-align="center"}
@@ -298,7 +278,7 @@ Le "workflow" (enchaînement des scripts, des logiciels)
 
 <br/>
 
-[Il existe des outils pour ça (script R, package `targets`)]{.small}
+[Il existe des outils pour ça (scripts numérotés, package `targets`)]{.small}
 
 ## [Tracking Changes]{.green}
 
@@ -326,7 +306,7 @@ Utiliser un logiciel de gestion de versions (`Git`).
 
 ![](assets/git.png){width='50%' fig-align="center"}
 
-##  {data-background-image="assets/capure_rstudio-git.png"}
+##  {data-background-image="assets/capture_positron-git.png"}
 
 ## [Collaboration]{.green}
 
@@ -338,11 +318,11 @@ Faciliter la compréhension des projets de recherche : permettre la [contributio
 
 <br/>
 
--   Conventions de code
+-   Conventions de code (encore)
 
--   Documentation de l'archive de recherche (README, license, code de contribution)
+-   Documentation de l'archive de recherche (README, DESCRIPTION, license, code de contribution)
 
--   Plateforme de collaboration en ligne (intègre `Git` !) : GitHub, GitLab, Codeberg
+-   Plateforme de collaboration en ligne (intègre `Git` !) : GitHub, GitLab, Codeberg, [forge.ird.fr](https://forge.ird.fr)
 
 ## [Manuscripts]{.green}
 
@@ -358,9 +338,13 @@ Utiliser la programmation lettrée (_literate programming_)
 
 <br/>
 
-> "Au lieu de considérer que notre tâche principale est de dire à un ordinateur ce qu'il doit faire, appliquons-nous plutôt à expliquer à des êtres humains ce que nous voulons que l'ordinateur fasse"
+> "Let us change our traditional attitude to the construction of programs: Instead of imagining that our
+main task is to instruct a computer what to do, let us
+concentrate rather on explaining to human beings what
+we want a computer to do."
 
-[Donald Knuth, années 70]{.reference}
+
+[[Donald Knuth, Literate Programming, 1984(http://www.literateprogramming.com/knuthweb.pdf)]]{.reference}
 
 ## [Manuscripts]{.green}
 
@@ -406,9 +390,13 @@ Formats d'export de Quarto (pandoc)
 
 +---------------+-------------------------------------------------+
 | **Monday**    | - Project organization & Good practices         |
-|               | - Version control w/ Git (Part I)               |
+|               | - Intro to Positron                             |
+|               | - Research compendium                           |
+|               | - Writing functions                             |
+|               | - The DESCRIPTION file                          |
+|               | - Compendium creation                           |
 +---------------+-------------------------------------------------+
-| **Tuesday**   | - Version control w/ Git (Part II)              |
+| **Tuesday**   | - Version control w/ Git (Part I, II, III)      |
 |               | - Collaboration & sharing w/ GitHub             |
 +---------------+-------------------------------------------------+
 | **Wednesday** | - Literate programming w/ Quarto                |
